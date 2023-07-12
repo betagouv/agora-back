@@ -6,6 +6,7 @@ data class ReponseConsultation(
     val choiceId: String,
     val participationId: String,
     val userId: String,
+    val responseText: String?,
 )
 
 data class ReponseConsultationInserting(

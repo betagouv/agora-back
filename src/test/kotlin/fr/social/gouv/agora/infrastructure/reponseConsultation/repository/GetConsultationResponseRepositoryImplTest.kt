@@ -38,6 +38,7 @@ internal class GetConsultationResponseRepositoryImplTest {
         choiceId = "domain-choiceId",
         participationId = "domain-participationId",
         userId = "domain-userId",
+        responseText = "domain-responseText"
     )
 
     private val reponseConsultationDTO = ReponseConsultationDTO(

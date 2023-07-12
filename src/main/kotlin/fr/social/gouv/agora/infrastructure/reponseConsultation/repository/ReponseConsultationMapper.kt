@@ -16,6 +16,7 @@ class ReponseConsultationMapper {
             choiceId = dto.choiceId.toString(),
             participationId = dto.participationId.toString(),
             userId = dto.userId.toString(),
+            responseText = dto.responseText,
         )
     }
 
@@ -53,7 +54,7 @@ class ReponseConsultationMapper {
         userId: UUID,
         participationId: UUID,
         domain: ReponseConsultationInserting,
-        choiceId: String?
+        choiceId: String?,
     ): ReponseConsultationDTO? {
         return try {
             ReponseConsultationDTO(

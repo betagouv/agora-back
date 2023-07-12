@@ -9,7 +9,7 @@ import fr.social.gouv.agora.usecase.reponseConsultation.repository.GetConsultati
 import org.springframework.stereotype.Service
 
 @Service
-class GetConsultationResultsWithDemographicInfoUseCase(
+class GetConsultationResultsWithDemographicRatiosUseCase(
     private val consultationInfoRepository: ConsultationInfoRepository,
     private val questionRepository: QuestionRepository,
     private val getConsultationResponseRepository: GetConsultationResponseRepository,
